@@ -198,6 +198,11 @@ def show_patient_details():
         messagebox.showinfo("Patient Details", patient_details)
     else:
         messagebox.showinfo("No Patient Details", "No patient details available.")
+# def calculate_compatibility_score(recipient, donor):
+#     # Use set intersection to find matching HLA antigens
+#     matching_antigens = recipient.HLA_profile.intersection(donor.HLA_profile)
+#     compatibility_score = len(matching_antigens)
+#     return compatibility_score
 
 # Add a button to trigger displaying compatible combinations
 compatible_combinations_button = Button(root, text="Show Compatible Combinations", command=display_compatible_combinations)
