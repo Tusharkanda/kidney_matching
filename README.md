@@ -16,6 +16,10 @@ Table of Contents
 - [Usage](#usage)
 - [Contributing](#contributing)
 
+## HOW To Run the project
+1)Download all the projects files given in the final folder
+2)install all the neccessary dependencies and the required modules 
+3) Run the code file either in the text editor or using the terminal
 
 ## Introduction
 
