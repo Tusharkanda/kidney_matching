@@ -10,6 +10,7 @@ Teammates:-) 1)Tushar kanda (https://github.com/Tusharkanda)
 This project implements a Kidney Matching System using Python with functionalities to register patients and donors, analyze compatibility between them based on blood type and HLA tissues, and visualize the compatibility using a graph.
 
 Table of Contents
+-.[HOW To Run the project](#how_to_run).
 - [Introduction](#introduction)
 - [Requirements](#requirements)
 - [Setup](#setup)
@@ -18,11 +19,18 @@ Table of Contents
 
 ## HOW To Run the project
 # 1)Download all the projects files given in the final folder
+download the python file and the patient and donor excel files and background image for the graphical prurpose name the image as kidneybg.png.
+# 2)install all the neccessary dependencies and the required modules 
+the required commands are to be executed in the terminal
+1)pip install networkx
+2)pip install matplotlib
+3)sudo apt-get install python3-tk( For Debian/Ubuntu based systems)
+4)pip install pandas
+5)pip install pillow
 
-# 2)install all the neccessary dependencies and the required modules
  
 # 3) Run the code file either in the text editor or using the terminal
-
+# 4) 
 ## Introduction
 
 The Kidney Matching System is a Python-based application using libraries such as NetworkX, Matplotlib, and Tkinter. It allows registering patients and donors, checking their compatibility based on blood groups and tissues, and visualizing the compatibility graphically.
